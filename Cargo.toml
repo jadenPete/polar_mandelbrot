@@ -1,0 +1,14 @@
+[package]
+name = "polar_mandelbrot"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bresenham = "0.1.1"
+futures = "0.3.25"
+image = "0.24.4"
+num = "0.4.0"
+plotters = "0.3.4"
+tokio = { version = "1.21.2", features = ["full"] }
